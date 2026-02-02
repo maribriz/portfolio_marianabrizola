@@ -1,6 +1,5 @@
 const Contact = () => {
-  return (
-    <section id="contato" className="min-h-screen flex flex-col justify-between px-4 md:px-8 py-24 md:py-32 bg-foreground text-background">
+  return <section id="contato" className="min-h-screen flex flex-col justify-between px-4 md:px-8 py-24 md:py-32 bg-foreground text-background">
       <div>
         <p className="text-[10px] tracking-[0.3em] text-background/60 mb-16">
           CONTATO
@@ -16,23 +15,15 @@ const Contact = () => {
       <div className="grid md:grid-cols-3 gap-8 md:gap-16 mt-24">
         <div>
           <p className="text-[10px] tracking-[0.3em] text-background/40 mb-4">EMAIL</p>
-          <a 
-            href="mailto:seu@email.com" 
-            className="editorial-link text-lg after:bg-background"
-          >
-            seu@email.com
+          <a className="editorial-link text-lg after:bg-background" href="mailto:mari.brizola@gmail.com">
+            mari.brizola@gmail.com
           </a>
         </div>
         
         <div>
           <p className="text-[10px] tracking-[0.3em] text-background/40 mb-4">LINKEDIN</p>
-          <a 
-            href="https://linkedin.com/in/seuprofile" 
-            target="_blank"
-            rel="noopener noreferrer"
-            className="editorial-link text-lg after:bg-background"
-          >
-            /in/seuprofile
+          <a target="_blank" rel="noopener noreferrer" className="editorial-link text-lg after:bg-background" href="http://www.linkedin.com/in/marianabrizola/">
+            /in/marianabrizola
           </a>
         </div>
         
@@ -50,8 +41,6 @@ const Contact = () => {
           PORTFOLIO
         </p>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Contact;
