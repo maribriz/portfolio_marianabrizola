@@ -22,7 +22,8 @@ CRM & Growth</p>
           <p className="text-sm">+4 Anos em Tech </p>
         </div>
         <div>
-          <p className="text-[10px] tracking-[0.2em] text-muted-foreground mb-2">LOCALIZAÇÃO</p>
+          <p className="text-[10px] tracking-[0.2em] text-muted-foreground mb-2">+4 Anos em Tech 
++10 Anos em Publicidade</p>
           <p className="text-sm">São Paulo, BR</p>
         </div>
         <div>
