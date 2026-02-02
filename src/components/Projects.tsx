@@ -1,72 +1,71 @@
 const projects = [
   {
     number: "01",
-    title: "Redesign de Checkout",
-    category: "E-commerce",
-    metric: "+45% conversão",
-    description: "Simplificação do fluxo de compra resultando em aumento significativo nas vendas.",
+    title: "CHECKOUT REDESIGN",
+    category: "E-COMMERCE",
+    metric: "+45%",
+    metricLabel: "CONVERSÃO",
   },
   {
-    number: "02",
-    title: "App de Fidelidade",
-    category: "Mobile",
-    metric: "2M+ usuários",
-    description: "Programa de fidelidade gamificado com engagement rate 3x acima do mercado.",
+    number: "02", 
+    title: "LOYALTY APP",
+    category: "MOBILE",
+    metric: "2M+",
+    metricLabel: "USUÁRIOS",
   },
   {
     number: "03",
-    title: "Dashboard Analytics",
-    category: "B2B SaaS",
-    metric: "NPS 72",
-    description: "Ferramenta de BI self-service que democratizou o acesso a dados na organização.",
+    title: "ANALYTICS DASHBOARD",
+    category: "B2B SAAS",
+    metric: "72",
+    metricLabel: "NPS",
   },
 ];
 
 const Projects = () => {
   return (
-    <section id="projetos" className="py-24 md:py-32 px-6 md:px-12 lg:px-24">
-      <div className="max-w-6xl mx-auto">
-        <div className="mb-16">
-          <p className="text-sm tracking-editorial text-muted-foreground mb-4">
-            04
+    <section id="projetos" className="py-24 md:py-32 px-4 md:px-8 bg-card">
+      <div className="max-w-7xl mx-auto">
+        <div className="flex justify-between items-end mb-16">
+          <p className="text-[10px] tracking-[0.3em] text-muted-foreground">
+            PROJETOS
           </p>
-          <h2 className="font-display text-3xl md:text-4xl font-light">
-            Projetos em Destaque
-          </h2>
+          <p className="text-[10px] tracking-[0.3em] text-muted-foreground">
+            SELEÇÃO
+          </p>
         </div>
         
         <div className="space-y-0">
           {projects.map((project, index) => (
             <div 
               key={index}
-              className="group py-12 border-t border-border first:border-t-0 cursor-pointer"
+              className="group py-12 md:py-16 border-t border-foreground/10 last:border-b cursor-pointer"
             >
-              <div className="grid md:grid-cols-12 gap-6 md:gap-8 items-start">
-                <div className="md:col-span-1">
-                  <span className="text-xs text-muted-foreground">
+              <div className="grid grid-cols-12 gap-4 items-start md:items-center">
+                <div className="col-span-2 md:col-span-1">
+                  <span className="text-[10px] tracking-[0.2em] text-muted-foreground">
                     {project.number}
                   </span>
                 </div>
                 
-                <div className="md:col-span-5">
-                  <h3 className="font-display text-2xl md:text-3xl lg:text-4xl font-light mb-2 group-hover:text-accent transition-colors">
+                <div className="col-span-10 md:col-span-7">
+                  <h3 className="font-display text-4xl md:text-6xl lg:text-7xl group-hover:translate-x-4 transition-transform duration-500">
                     {project.title}
                   </h3>
-                  <p className="text-sm text-muted-foreground">
+                  <p className="text-[10px] tracking-[0.2em] text-muted-foreground mt-2">
                     {project.category}
                   </p>
                 </div>
                 
-                <div className="md:col-span-4">
-                  <p className="text-muted-foreground leading-relaxed">
-                    {project.description}
-                  </p>
-                </div>
-                
-                <div className="md:col-span-2 md:text-right">
-                  <span className="inline-block px-4 py-2 bg-card text-sm font-medium text-accent">
-                    {project.metric}
-                  </span>
+                <div className="col-span-12 md:col-span-4 md:text-right mt-4 md:mt-0">
+                  <div className="inline-block">
+                    <span className="font-display text-5xl md:text-6xl block leading-none">
+                      {project.metric}
+                    </span>
+                    <span className="text-[10px] tracking-[0.2em] text-muted-foreground">
+                      {project.metricLabel}
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>

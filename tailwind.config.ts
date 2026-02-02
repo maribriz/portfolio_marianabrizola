@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        display: ['Cormorant Garamond', 'serif'],
+        display: ['Bebas Neue', 'sans-serif'],
         body: ['Inter', 'sans-serif'],
       },
       colors: {
@@ -51,11 +51,6 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        gold: "hsl(var(--gold))",
-        "gold-light": "hsl(var(--gold-light))",
-        charcoal: "hsl(var(--charcoal))",
-        cream: "hsl(var(--cream))",
-        "warm-gray": "hsl(var(--warm-gray))",
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -71,24 +66,10 @@ export default {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
-        "slide-up": {
-          from: { opacity: "0", transform: "translateY(30px)" },
-          to: { opacity: "1", transform: "translateY(0)" },
-        },
-        "fade-in": {
-          from: { opacity: "0" },
-          to: { opacity: "1" },
-        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        "slide-up": "slide-up 0.8s ease-out forwards",
-        "fade-in": "fade-in 1s ease-out forwards",
-      },
-      letterSpacing: {
-        'editorial': '0.2em',
-        'tight-editorial': '0.05em',
       },
     },
   },
