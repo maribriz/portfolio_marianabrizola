@@ -1,10 +1,9 @@
 const Hero = () => {
-  return (
-    <section className="min-h-screen flex flex-col justify-end px-4 md:px-8 pb-8 pt-24">
+  return <section className="min-h-screen flex flex-col justify-end px-4 md:px-8 pb-8 pt-24">
       <div className="flex-1 flex items-center">
-        <h1 className="font-display text-[15vw] md:text-[12vw] leading-[0.85] tracking-tight fade-in">
-          PRODUCT
-          <br />
+        <h1 className="font-display text-[15vw] md:text-[12vw] leading-[0.85] tracking-tight fade-in">PRODUCT
+MANAGER/
+STRATEGIST<br />
           MANAGER
         </h1>
       </div>
@@ -12,11 +11,13 @@ const Hero = () => {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 pt-8 border-t border-foreground/20 fade-in fade-in-delay-2">
         <div>
           <p className="text-[10px] tracking-[0.2em] text-muted-foreground mb-2">FOCO</p>
-          <p className="text-sm">Estratégia & Produto</p>
+          <p className="text-sm">Digital Product
+Data Science & AI
+CRM & Growth</p>
         </div>
         <div>
           <p className="text-[10px] tracking-[0.2em] text-muted-foreground mb-2">EXPERIÊNCIA</p>
-          <p className="text-sm">+5 Anos</p>
+          <p className="text-sm">+4 Anos em Tech </p>
         </div>
         <div>
           <p className="text-[10px] tracking-[0.2em] text-muted-foreground mb-2">LOCALIZAÇÃO</p>
@@ -27,8 +28,6 @@ const Hero = () => {
           <p className="text-sm">Disponível</p>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
