@@ -20,7 +20,7 @@ const experiences = [
   {
     period: "2016 — 2018",
     role: "ASSOCIATE PM",
-    company: "Empresa",
+    company: "QuintoAndar",
     scope: "Produto",
   },
   {
