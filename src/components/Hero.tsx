@@ -1,9 +1,8 @@
 const Hero = () => {
   return <section className="min-h-screen flex flex-col justify-end px-4 md:px-8 pb-8 pt-24">
       <div className="flex-1 flex items-center">
-        <h1 className="font-display text-[15vw] md:text-[12vw] leading-[0.85] tracking-tight fade-in">PRODUCT
-MANAGER/
-STRATEGIST<br />
+        <h1 className="font-display text-[15vw] md:text-[12vw] leading-[0.85] tracking-tight fade-in">PRODUCT &
+STRATEGY<br />
           MANAGER
         </h1>
       </div>
@@ -19,7 +18,8 @@ CRM & Growth</p>
         </div>
         <div>
           <p className="text-[10px] tracking-[0.2em] text-muted-foreground mb-2">EXPERIÊNCIA</p>
-          <p className="text-sm">+4 Anos em Tech </p>
+          <p className="text-sm">+ 4 Anos em Tech
++10 Anos em Comms/Mkt </p>
         </div>
         <div>
           <p className="text-[10px] tracking-[0.2em] text-muted-foreground mb-2">+4 Anos em Tech 
