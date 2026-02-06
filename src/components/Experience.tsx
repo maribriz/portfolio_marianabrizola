@@ -17,6 +17,24 @@ const experiences = [
     company: "E-commerce",
     scope: "Conversão",
   },
+  {
+    period: "2016 — 2018",
+    role: "PRODUCT MANAGER",
+    company: "Empresa",
+    scope: "Produto",
+  },
+  {
+    period: "2014 — 2016",
+    role: "ASSOCIATE PM",
+    company: "Empresa",
+    scope: "Produto",
+  },
+  {
+    period: "2012 — 2014",
+    role: "ANALYST",
+    company: "Empresa",
+    scope: "Dados",
+  },
 ];
 
 const skills = [
