@@ -1,5 +1,5 @@
 const Marquee = () => {
-  const text = "PRODUCT MANAGER • ESTRATÉGIA • INOVAÇÃO • DESIGN • TECNOLOGIA • ";
+  const text = "PRODUCT MANAGEMENT • INTELIGÊNCIA ARTIFICIAL • MACHINE LEARNING • CRM • GROWTH • ESTRATÉGIA • ";
   
   return (
     <div className="py-6 border-y border-foreground/10 overflow-hidden">
