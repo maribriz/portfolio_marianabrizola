@@ -17,7 +17,8 @@ Data Science & AI
 CRM & Growth</p>
         </div>
         <div>
-          <p className="text-[10px] tracking-[0.2em] text-muted-foreground mb-2">EXPERIÊNCIA</p>
+          <p className="text-[10px] tracking-[0.2em] text-muted-foreground mb-2">+ 4 Anos em Tech
++10 Anos em Comms/Mkt </p>
           <p className="text-sm">+ 4 Anos em Tech
 +10 Anos em Comms/Mkt </p>
         </div>
