@@ -7,7 +7,7 @@ const experiences = [
   },
   {
     period: "2020 — 2022",
-    role: "PRODUCT MANAGER",
+    role: "SENIOR PM",
     company: "Startup Digital",
     scope: "+300% ARR",
   },
