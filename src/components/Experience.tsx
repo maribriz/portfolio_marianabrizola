@@ -13,7 +13,7 @@ const experiences = [
   },
   {
     period: "2018 — 2020",
-    role: "ASSOCIATE PM",
+    role: "SENIOR DATA PM",
     company: "E-commerce",
     scope: "Conversão",
   },
