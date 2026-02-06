@@ -2,7 +2,7 @@ const experiences = [
   {
     period: "2022 — NOW",
     role: "STRATEGY MANAGER",
-    company: "Tech Company",
+    company: "Wieden&Kennedy",
     scope: "B2B SaaS",
   },
   {
