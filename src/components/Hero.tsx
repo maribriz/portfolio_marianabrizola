@@ -9,27 +9,20 @@ STRATEGY<br />
       
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 pt-8 border-t border-foreground/20 fade-in fade-in-delay-2">
         <div>
-          <p className="text-[10px] tracking-[0.2em] text-muted-foreground mb-2">Digital Product
-Data Science & AI
-CRM & Growth</p>
-          <p className="text-sm">Digital Product
-Data Science & AI
-CRM & Growth</p>
+          <p className="text-[10px] tracking-[0.2em] text-muted-foreground mb-2">SPECIALLITY</p>
+          <p className="text-sm">Product Management<br />Data Science<br />Artificial Intelligence<br />CRM<br />Growth<br />Advertising & Media Strategy</p>
         </div>
         <div>
-          <p className="text-[10px] tracking-[0.2em] text-muted-foreground mb-2">+ 4 Anos em Tech
-+10 Anos em Comms/Mkt </p>
-          <p className="text-sm">+ 4 Anos em Tech
-+10 Anos em Comms/Mkt </p>
+          <p className="text-[10px] tracking-[0.2em] text-muted-foreground mb-2">EXPERIENCE</p>
+          <p className="text-sm">+ 5 years in Tech<br />+10 years in Advertising/Mkt</p>
         </div>
         <div>
-          <p className="text-[10px] tracking-[0.2em] text-muted-foreground mb-2">+4 Anos em Tech 
-+10 Anos em Publicidade</p>
-          <p className="text-sm">São Paulo, BR</p>
+          <p className="text-[10px] tracking-[0.2em] text-muted-foreground mb-2">LOCATION</p>
+          <p className="text-sm">São Paulo, Brazil<br />-&gt; Available to relocate or remote work opportunities</p>
         </div>
         <div>
           <p className="text-[10px] tracking-[0.2em] text-muted-foreground mb-2">STATUS</p>
-          <p className="text-sm">Disponível</p>
+          <p className="text-sm">open to new opportunities</p>
         </div>
       </div>
     </section>;
