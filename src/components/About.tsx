@@ -19,18 +19,23 @@ const About = () => {
           <div className="md:col-span-7 lg:col-span-8 flex flex-col justify-between">
             <div>
               <p className="text-[10px] tracking-[0.3em] text-background/60 mb-8">
-                ABOUT
+                SOBRE
               </p>
-              <h2 className="font-display text-5xl md:text-6xl lg:text-7xl leading-[0.9] mb-12">I BUILD TECH SOLUTIONS WITH A HUMAN PERSPECTIVE</h2>
+              <h2 className="font-display text-5xl md:text-6xl lg:text-7xl leading-[0.9] mb-12">
+</h2>
             </div>
             
             <div>
-              <p className="text-background/80 text-lg leading-relaxed mb-6">Product Manager with 15 years of experience across Advertising, Technology, and AI. I've led data science and machine learning squads at Brazilian unicorns like QuintoAndar and Loft, building models for personalization and ranking, always with a clear focus on user behavior and business impact.</p>
-              <p className="text-background/80 text-lg leading-relaxed mb-6">I bring the full stack of product thinking — from defining the real problem and discovery, through roadmap prioritization, to go-to-market and team leadership. My background in brand strategy gives me something most technical PMs don't have: a deep understanding of why people do what they do.</p>
+              <p className="text-background/80 text-lg leading-relaxed mb-8">Product Manager especialista em Dados, Inteligência Artificial e Growth com background em Comunicação Social e Publicidade.
+Procuro unir minha extensa experiências nas ciências humanas com minha capacidade analítica e conhecimento prático em tecnologia para criar produtos que solucionam problemas das pessoas.</p>
+              <p className="text-background/60 leading-relaxed">
+                Já liderei produtos que impactaram milhões de usuários. 
+                Minha abordagem combina rigor analítico com sensibilidade para design 
+                e profundo entendimento do comportamento humano.
+              </p>
             </div>
           </div>
         </div>
       </div>
-    </section>;
-};
+    </section>;};
 export default About;
