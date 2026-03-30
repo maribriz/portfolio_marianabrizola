@@ -19,8 +19,9 @@ const About = () => {
           <div className="md:col-span-7 lg:col-span-8 flex flex-col justify-between">
             <div>
               <p className="text-[10px] tracking-[0.3em] text-background/60 mb-8">
+                ABOUT
               </p>
-              <h2 className="font-display text-5xl md:text-6xl lg:text-7xl leading-[0.9] mb-12"></h2>
+              <h2 className="font-display text-5xl md:text-6xl lg:text-7xl leading-[0.9] mb-12">I BUILD TECH SOLUTIONS WITH A HUMAN PERSPECTIVE</h2>
             </div>
             
             <div>
