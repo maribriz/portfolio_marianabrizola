@@ -27,11 +27,6 @@ const About = () => {
             <div>
               <p className="text-background/80 text-lg leading-relaxed mb-8">Product Manager especialista em Dados, Inteligência Artificial e Growth com background em Comunicação Social e Publicidade.
 Procuro unir minha extensa experiências nas ciências humanas com minha capacidade analítica e conhecimento prático em tecnologia para criar produtos que solucionam problemas das pessoas.</p>
-              <p className="text-background/60 leading-relaxed">
-                Já liderei produtos que impactaram milhões de usuários. 
-                Minha abordagem combina rigor analítico com sensibilidade para design 
-                e profundo entendimento do comportamento humano.
-              </p>
             </div>
           </div>
         </div>
