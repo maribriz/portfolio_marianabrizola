@@ -24,10 +24,6 @@ const About = () => {
               <h2 className="font-display text-5xl md:text-6xl lg:text-7xl leading-[0.9] mb-12">DESENVOLVO SOLUÇÕES TECNOLÓGICAS COM UMA PERSPECTIVA HUMANA</h2>
             </div>
             
-            <div>
-              <p className="text-background/80 text-lg leading-relaxed mb-8">Product Manager especialista em Dados, Inteligência Artificial e Growth com background em Comunicação Social e Publicidade.
-Procuro unir minha extensa experiências nas ciências humanas com minha capacidade analítica e conhecimento prático em tecnologia para criar produtos que solucionam problemas das pessoas.</p>
-            </div>
           </div>
         </div>
       </div>
