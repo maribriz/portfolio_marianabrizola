@@ -24,12 +24,6 @@ const experiences = [
     scope: "Produto",
   },
   {
-    period: "2014 — 2016",
-    role: "ASSOCIATE PM",
-    company: "Empresa",
-    scope: "Produto",
-  },
-  {
     period: "2012 — 2014",
     role: "ANALYST",
     company: "Empresa",
