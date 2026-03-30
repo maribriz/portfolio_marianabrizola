@@ -24,6 +24,10 @@ const About = () => {
               <h2 className="font-display text-5xl md:text-6xl lg:text-7xl leading-[0.9] mb-12">DESENVOLVO SOLUÇÕES TECNOLÓGICAS COM UMA PERSPECTIVA HUMANA</h2>
             </div>
             
+            <div>
+              <p className="text-background/80 text-lg leading-relaxed mb-6">Product Manager with 15 years of experience across Advertising, Technology, and AI. I've led data science and machine learning squads at Brazilian unicorns like QuintoAndar and Loft, building models for personalization, ranking, and predictive analytics — always with a clear focus on user behavior and business impact.</p>
+              <p className="text-background/80 text-lg leading-relaxed mb-6">I bring the full stack of product thinking — from defining the real problem and discovery, through roadmap prioritization, to go-to-market and team leadership. My background in brand strategy gives me something most technical PMs don't have: a deep understanding of why people do what they do.</p>
+            </div>
           </div>
         </div>
       </div>
