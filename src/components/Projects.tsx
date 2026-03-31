@@ -90,7 +90,7 @@ const Projects = () => {
               >
                 <div className="grid grid-cols-12 gap-4">
                   <div className="col-span-12 md:col-start-2 md:col-span-7">
-                    <p className="text-sm md:text-base leading-relaxed text-muted-foreground">
+                    <p className="text-xs md:text-sm leading-relaxed text-muted-foreground">
                       {project.description}
                     </p>
                   </div>
