@@ -17,6 +17,7 @@ const skills = [
   "MANUS",
   "NOTEBOOKLM",
   "LOVABLE",
+  "REPLIT",
   "N8N",
   "CLAUDE",
   "CHATGPT",
