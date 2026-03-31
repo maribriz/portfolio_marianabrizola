@@ -6,7 +6,7 @@ const About = () => {
           {/* Photo Column */}
           <div className="md:col-span-5 lg:col-span-4">
             <div className="relative aspect-[3/4] bg-background/10 overflow-hidden group">
-              <img src={profilePhoto} alt="Foto de perfil" className="w-full h-full object-cover object-top scale-150 grayscale group-hover:grayscale-0 transition-all duration-700" />
+              <img src={profilePhoto} alt="Foto de perfil" className="w-full h-full object-cover object-[center_15%] scale-[2] grayscale group-hover:grayscale-0 transition-all duration-700" />
               <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-foreground/80 to-transparent">
                 <p className="text-[10px] tracking-[0.3em] text-background/60">
                   PHOTO BY HELENA YOSHIOKA
