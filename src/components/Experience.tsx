@@ -19,7 +19,7 @@ const experiences = [
     period: "2022",
     role: "SENIOR DATA PRODUCT MANAGER",
     company: "Loft",
-    scope: "Conversão",
+    scope: "Conversion",
     description: "Led data science squads building ML models for media investment optimization and property liquidity scoring, helping internal teams prioritize and accelerate the sale of low-demand properties.",
   },
   {
