@@ -2,13 +2,13 @@ const Contact = () => {
   return <section id="contato" className="min-h-screen flex flex-col justify-between px-4 md:px-8 py-24 md:py-32 bg-foreground text-background">
       <div>
         <p className="text-[10px] tracking-[0.3em] text-background/60 mb-16">
-          CONTATO
+          CONTACT
         </p>
         
         <h2 className="font-display text-[12vw] md:text-[10vw] leading-[0.85]">
-          VAMOS
+          LET'S
           <br />
-          CONVERSAR?
+          TALK?
         </h2>
       </div>
       
