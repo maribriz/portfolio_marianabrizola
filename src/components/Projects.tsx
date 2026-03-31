@@ -45,7 +45,8 @@ const Projects = () => {
             <div 
               key={index}
               className="group py-12 md:py-16 border-t border-foreground/10 last:border-b cursor-pointer"
-              onClick={() => toggleExpand(index)}
+              onMouseEnter={() => setExpandedIndex(index)}
+              onMouseLeave={() => setExpandedIndex(null)}
             >
               <div className="grid grid-cols-12 gap-4 items-start md:items-center">
                 <div className="col-span-2 md:col-span-1">
