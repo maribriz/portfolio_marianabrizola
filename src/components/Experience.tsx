@@ -34,7 +34,7 @@ const experiences = [
     role: "STRATEGIST",
     company: "Advertising Agencies",
     scope: "Data",
-    description: "Spent nearly a decade in strategic planning roles at top agencies (AlmapBBDO, Tribal, GTB, JWT), leading CRM, digital performance, and brand strategy for global clients like Volkswagen, Ford, and Santander.",
+    description: "Spent nearly a decade in strategic planning roles at top agencies (AlmapBBDO, Tribal Worldwide, GTB WPP, JWT WPP), leading CRM, digital performance, and brand strategy for global clients like Volkswagen, Ford, and Santander.",
   },
 ];
 
