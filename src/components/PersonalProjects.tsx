@@ -4,12 +4,14 @@ const personalProjects = [
   {
     number: "01",
     title: "LINKEDIN PROFILE OPTIMIZER",
+    subtitle: "PrograMaria x Zup Innovation Sprint | Dec/2025",
     category: "AI AGENT",
     description: "Brief description of the personal project and its impact.",
   },
   {
     number: "02",
     title: "UNDESTOOD, DOCTOR!",
+    subtitle: "",
     category: "MOBILE APP",
     description: "Brief description of the personal project and its impact.",
   },
