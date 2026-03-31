@@ -10,14 +10,7 @@ STRATEGY<br />
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 pt-8 border-t border-foreground/20 fade-in fade-in-delay-2">
         <div>
           <p className="text-[10px] tracking-[0.2em] text-muted-foreground mb-2">SPECIALLITY</p>
-          <p className="text-xs md:text-sm whitespace-pre-line">
-            ・Product Management
-            ・Data Science
-            ・Artificial Intelligence
-            ・CRM
-            ・Growth
-            ・Advertising & Media Strategy
-          </p>
+          <p className="text-xs md:text-sm whitespace-pre-line leading-relaxed">{"・Product Management\n・Data Science\n・Artificial Intelligence\n・CRM\n・Growth\n・Advertising & Media Strategy"}</p>
         </div>
         <div>
           <p className="text-[10px] tracking-[0.2em] text-muted-foreground mb-2">EXPERIENCE</p>
