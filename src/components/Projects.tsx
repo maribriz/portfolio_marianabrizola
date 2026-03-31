@@ -16,7 +16,7 @@ const projects = [
     category: "QUINTOANDAR",
     metric: "+30%",
     metricLabel: "CONVERSION",
-    description: "Led the discovery, design, and launch of a new MVP landing page focused on reducing friction and improving lead capture — achieving a 30% increase in conversion through rapid experimentation.",
+    description: "End-to-end leadership of a desktop website MVP that increased property views by ~30% among potential renters and buyers compared to the traditional flow.",
   },
   {
     number: "03",
