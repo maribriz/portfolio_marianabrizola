@@ -3,14 +3,14 @@ import { ArrowUpRight } from "lucide-react";
 const personalProjects = [
   {
     number: "01",
-    title: "PROJECT NAME",
-    category: "CATEGORY",
+    title: "LINKEDIN PROFILE OPTIMIZER",
+    category: "AI AGENT",
     description: "Brief description of the personal project and its impact.",
   },
   {
     number: "02",
-    title: "PROJECT NAME",
-    category: "CATEGORY",
+    title: "UNDESTOOD, DOCTOR!",
+    category: "MOBILE APP",
     description: "Brief description of the personal project and its impact.",
   },
 ];
