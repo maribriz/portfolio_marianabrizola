@@ -15,10 +15,10 @@ const projects = [
   },
   {
     number: "03",
-    title: "AI LIQUIDITY MODEL",
+    title: "AI PROPERTY LIQUIDITY MODEL",
     category: "LOFT",
-    metric: "72",
-    metricLabel: "NPS",
+    metric: "+60%",
+    metricLabel: "CONVERSION",
   },
 ];
 
