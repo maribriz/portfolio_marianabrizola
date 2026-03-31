@@ -30,10 +30,10 @@ const projects = [
     category: "LOFT",
     metric: "+60%",
     metricLabel: "CONVERSION",
-    situation: "Low-demand properties were stalling in the pipeline, and internal teams lacked data-driven tools to prioritize outreach to property owners.",
-    task: "Develop and integrate data models to measure and improve the liquidity of low-demand properties.",
-    action: "Led the squad that built AI models combining pricing, demand signals, and liquidity algorithms, working closely with stakeholders to operationalize the solution.",
-    result: "Increased successful contacts with property owners by 60% compared to the period before implementation.",
+    situation: "Low-demand properties were taking too long to sell, reducing operational efficiency and increasing costs.",
+    task: "Develop a data-driven solution to identify and improve property liquidity.",
+    action: "Led a data squad to build and integrate AI models combining pricing, demand signals, and liquidity algorithms. Worked closely with stakeholders to operationalize the solution quickly and improve the effectiveness of the property owner contact team.",
+    result: "Increased internal team efficiency and drove a 60% increase in successful contacts with property owners.",
   },
 ];
 
