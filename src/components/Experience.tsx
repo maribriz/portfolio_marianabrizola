@@ -1,32 +1,32 @@
 const experiences = [
   {
-    period: "2022 — NOW",
+    period: "2024 - 2025",
     role: "STRATEGY MANAGER",
     company: "Wieden&Kennedy",
     scope: "B2B SaaS",
   },
   {
-    period: "2020 — 2022",
-    role: "SENIOR PM",
+    period: "2023 - 2024",
+    role: "SENIOR PRODUCT MANAGER",
     company: "Skeelo",
     scope: "+300% ARR",
   },
   {
-    period: "2018 — 2020",
-    role: "SENIOR DATA PM",
+    period: "2022",
+    role: "SENIOR DATA PRODUCT MANAGER",
     company: "E-commerce",
     scope: "Conversão",
   },
   {
-    period: "2016 — 2018",
-    role: "ASSOCIATE PM",
+    period: "2020 - 2022",
+    role: "ASSOCIATE PM/CRM SPECIALIST",
     company: "QuintoAndar",
     scope: "Produto",
   },
   {
-    period: "2012 — 2014",
-    role: "ANALYST",
-    company: "Empresa",
+    period: "2011 - 2019",
+    role: "STRATEGIST",
+    company: "Advertising Agencies",
     scope: "Dados",
   },
 ];
@@ -47,7 +47,7 @@ const Experience = () => {
     <section id="experiencia" className="py-24 md:py-32 px-4 md:px-8">
       <div className="max-w-7xl mx-auto">
         <p className="text-[10px] tracking-[0.3em] text-muted-foreground mb-16">
-          EXPERIÊNCIA
+          PROFESSIONAL EXPERIENCE
         </p>
         
         <div className="space-y-0 mb-24">
