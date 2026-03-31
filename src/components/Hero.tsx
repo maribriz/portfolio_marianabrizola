@@ -22,7 +22,7 @@ STRATEGY<br />
         </div>
         <div>
           <p className="text-[10px] tracking-[0.2em] text-muted-foreground mb-2">STATUS</p>
-          <p className="text-sm">open to new opportunities</p>
+          <p className="text-sm">Open to new opportunities</p>
         </div>
       </div>
     </section>;
