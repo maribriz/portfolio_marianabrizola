@@ -14,7 +14,7 @@ const experiences = [
   {
     period: "2022",
     role: "SENIOR DATA PRODUCT MANAGER",
-    company: "E-commerce",
+    company: "Loft",
     scope: "Conversão",
   },
   {
