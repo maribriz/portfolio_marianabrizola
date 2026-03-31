@@ -36,7 +36,7 @@ const Contact = () => {
       
       <div className="flex justify-between items-end mt-24 pt-8 border-t border-background/20">
         <p className="text-[10px] tracking-[0.2em] text-background/40">
-          © 2024
+          © 2026
         </p>
         <p className="text-[10px] tracking-[0.3em] text-background/40">
           PORTFOLIO
