@@ -28,7 +28,7 @@ const Projects = () => {
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between items-end mb-16">
           <p className="text-[10px] tracking-[0.3em] text-muted-foreground">
-            PROJETOS
+            FEATURED PROJECTS
           </p>
           <p className="text-[10px] tracking-[0.3em] text-muted-foreground">
             SELEÇÃO
