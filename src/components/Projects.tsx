@@ -8,7 +8,10 @@ const projects = [
     category: "QUINTOANDAR",
     metric: "+13%",
     metricLabel: "CONVERSION",
-    description: "Built a personalized property recommendation model using Embeddings, deployed in email marketing and an on-site carousel. The new model drove 13% more clicks (an importante signal of user intent) compared to the previous recommendation approach.",
+    situation: "QuintoAndar's existing property recommendation system lacked personalization, leading to lower engagement in email marketing and on-site experiences.",
+    task: "Build a personalized recommendation model to increase user engagement and conversion across multiple channels.",
+    action: "Developed a property recommendation model using Embeddings, and deployed it in email marketing campaigns and an on-site carousel.",
+    result: "The new model drove 13% more clicks (an important signal of user intent) compared to the previous recommendation approach.",
   },
   {
     number: "02",
@@ -16,7 +19,10 @@ const projects = [
     category: "QUINTOANDAR",
     metric: "+30%",
     metricLabel: "CONVERSION",
-    description: "End-to-end leadership of a desktop website MVP that increased property views by ~30% among potential renters and buyers compared to the traditional flow.",
+    situation: "The traditional flow for potential renters and buyers on desktop had limited conversion rates for property views.",
+    task: "Design and ship an MVP landing page to improve the property discovery experience and increase views.",
+    action: "Led end-to-end development of a desktop website MVP, from concept through launch, aligning cross-functional teams around the initiative.",
+    result: "Increased property views by ~30% among potential renters and buyers compared to the traditional flow.",
   },
   {
     number: "03",
@@ -24,7 +30,10 @@ const projects = [
     category: "LOFT",
     metric: "+60%",
     metricLabel: "CONVERSION",
-    description: "Led the squad that developed and integrated data models to measure and improve the liquidity of low-demand properties. This solution increased the efficiency of internal teams, resulting in a 60% growth in successful contacts with property owners compared to the period before its implementation.",
+    situation: "Low-demand properties were stalling in the pipeline, and internal teams lacked data-driven tools to prioritize outreach to property owners.",
+    task: "Develop and integrate data models to measure and improve the liquidity of low-demand properties.",
+    action: "Led the squad that built AI models combining pricing, demand signals, and liquidity algorithms, working closely with stakeholders to operationalize the solution.",
+    result: "Increased successful contacts with property owners by 60% compared to the period before implementation.",
   },
 ];
 
