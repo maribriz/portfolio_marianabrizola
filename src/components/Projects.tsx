@@ -94,14 +94,24 @@ const Projects = () => {
 
               <div
                 className={`overflow-hidden transition-all duration-500 ease-in-out ${
-                  expandedIndex === index ? "max-h-40 opacity-100 mt-8" : "max-h-0 opacity-0"
+                  expandedIndex === index ? "max-h-96 opacity-100 mt-8" : "max-h-0 opacity-0"
                 }`}
               >
                 <div className="grid grid-cols-12 gap-4">
-                  <div className="col-span-12 md:col-start-2 md:col-span-7">
-                    <p className="text-xs md:text-sm leading-relaxed text-muted-foreground">
-                      {project.description}
-                    </p>
+                  <div className="col-span-12 md:col-start-2 md:col-span-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      {[
+                        { label: "SITUATION", text: project.situation },
+                        { label: "TASK", text: project.task },
+                        { label: "ACTION", text: project.action },
+                        { label: "RESULT", text: project.result },
+                      ].map((item) => (
+                        <div key={item.label}>
+                          <p className="text-[9px] tracking-[0.2em] text-muted-foreground/60 mb-1">{item.label}</p>
+                          <p className="text-xs leading-relaxed text-muted-foreground">{item.text}</p>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                 </div>
               </div>
