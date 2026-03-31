@@ -8,7 +8,7 @@ const projects = [
     category: "QUINTOANDAR",
     metric: "+13%",
     metricLabel: "CONVERSION",
-    description: "Developed and deployed a machine learning model to personalize property recommendations based on user behavior, preferences, and search patterns — resulting in a 13% lift in conversion rates.",
+    description: "Built a personalized property recommendation model using Embeddings, deployed in email marketing and an on-site carousel. The new model drove 13% more clicks (an importante signal of user intent) compared to the previous recommendation approach.",
   },
   {
     number: "02",
