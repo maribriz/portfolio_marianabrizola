@@ -50,7 +50,7 @@ const PersonalProjects = () => {
                     {project.subtitle}
                   </p>
                 )}
-                <p className="text-sm leading-relaxed text-primary-foreground/60">
+                <p className="text-sm leading-relaxed text-primary-foreground/60 whitespace-pre-wrap">
                   {project.description}
                 </p>
               </div>
