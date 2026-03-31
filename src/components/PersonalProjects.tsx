@@ -35,7 +35,7 @@ const PersonalProjects = () => {
                 <span className="text-[10px] tracking-[0.2em] text-primary-foreground/40">
                   {project.number}
                 </span>
-                <ArrowUpRight className="w-5 h-5 text-primary-foreground/30 group-hover:text-primary-foreground group-hover:-translate-y-1 group-hover:translate-x-1 transition-all duration-300" />
+                
               </div>
 
               <div>
