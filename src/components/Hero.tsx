@@ -41,7 +41,6 @@ const Hero = () => {
           <p className="text-sm">
             {"・Portuguese: Native/Fluent"}
             <br />
-            <br />
             {"・English: Advanced"}
             <br />
             {"・Spanish: Intermediate"}
