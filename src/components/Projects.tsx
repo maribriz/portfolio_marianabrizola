@@ -31,10 +31,6 @@ const projects = [
 const Projects = () => {
   const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
 
-  const toggleExpand = (index: number) => {
-    setExpandedIndex(expandedIndex === index ? null : index);
-  };
-
   return (
     <section id="projetos" className="py-24 md:py-32 px-4 md:px-8 bg-card">
       <div className="max-w-7xl mx-auto">
