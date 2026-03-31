@@ -9,7 +9,7 @@ const About = () => {
               <img src={profilePhoto} alt="Foto de perfil" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" />
               <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-foreground/80 to-transparent">
                 <p className="text-[10px] tracking-[0.3em] text-background/60">
-                  FOTO POR HELENA YOSHIOKA
+                  PHOTO BY HELENA YOSHIOKA
                 </p>
               </div>
             </div>
