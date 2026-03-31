@@ -1,3 +1,5 @@
+import { ArrowUpRight } from "lucide-react";
+
 const personalProjects = [
   {
     number: "01",
@@ -15,41 +17,35 @@ const personalProjects = [
 
 const PersonalProjects = () => {
   return (
-    <section id="personal-projects" className="py-24 md:py-32 px-4 md:px-8 bg-background">
+    <section id="personal-projects" className="py-24 md:py-32 px-4 md:px-8 bg-primary text-primary-foreground">
       <div className="max-w-7xl mx-auto">
-        <div className="flex justify-between items-end mb-16">
-          <p className="text-[10px] tracking-[0.3em] text-muted-foreground">
-            PERSONAL PROJECTS
-          </p>
-        </div>
+        <p className="text-[10px] tracking-[0.3em] text-primary-foreground/50 mb-16">
+          PERSONAL PROJECTS
+        </p>
 
-        <div className="space-y-0">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
           {personalProjects.map((project, index) => (
             <div
               key={index}
-              className="group py-12 md:py-16 border-t border-foreground/10 last:border-b"
+              className="group relative border border-primary-foreground/15 p-8 md:p-10 hover:bg-primary-foreground/5 transition-all duration-500 cursor-pointer"
             >
-              <div className="grid grid-cols-12 gap-4 items-start md:items-center">
-                <div className="col-span-2 md:col-span-1">
-                  <span className="text-[10px] tracking-[0.2em] text-muted-foreground">
-                    {project.number}
-                  </span>
-                </div>
+              <div className="flex justify-between items-start mb-12">
+                <span className="text-[10px] tracking-[0.2em] text-primary-foreground/40">
+                  {project.number}
+                </span>
+                <ArrowUpRight className="w-5 h-5 text-primary-foreground/30 group-hover:text-primary-foreground group-hover:-translate-y-1 group-hover:translate-x-1 transition-all duration-300" />
+              </div>
 
-                <div className="col-span-10 md:col-span-7">
-                  <h3 className="font-display text-4xl md:text-6xl lg:text-7xl group-hover:translate-x-4 transition-transform duration-500">
-                    {project.title}
-                  </h3>
-                  <p className="text-[10px] tracking-[0.2em] text-muted-foreground mt-2">
-                    {project.category}
-                  </p>
-                </div>
-
-                <div className="col-span-12 md:col-span-4 md:text-right mt-4 md:mt-0">
-                  <p className="text-sm md:text-base leading-relaxed text-muted-foreground">
-                    {project.description}
-                  </p>
-                </div>
+              <div>
+                <p className="text-[10px] tracking-[0.2em] text-primary-foreground/40 mb-3">
+                  {project.category}
+                </p>
+                <h3 className="font-display text-3xl md:text-4xl lg:text-5xl mb-6 leading-none">
+                  {project.title}
+                </h3>
+                <p className="text-sm leading-relaxed text-primary-foreground/60">
+                  {project.description}
+                </p>
               </div>
             </div>
           ))}
