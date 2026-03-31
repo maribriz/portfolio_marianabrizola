@@ -2,16 +2,16 @@ import { useState } from "react";
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const links = [{
-    label: "SOBRE",
+    label: "ABOUT",
     href: "#sobre"
   }, {
-    label: "EXPERIÊNCIA",
+    label: "EXPERIENCE",
     href: "#experiencia"
   }, {
-    label: "PROJETOS",
+    label: "PROJECTS",
     href: "#projetos"
   }, {
-    label: "CONTATO",
+    label: "CONTACT",
     href: "#contato"
   }];
   return <>

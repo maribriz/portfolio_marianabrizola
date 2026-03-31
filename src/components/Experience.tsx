@@ -33,7 +33,7 @@ const experiences = [
     period: "2011 - 2019",
     role: "STRATEGIST",
     company: "Advertising Agencies",
-    scope: "Dados",
+    scope: "Data",
     description: "Spent nearly a decade in strategic planning roles at top agencies (AlmapBBDO, Tribal, GTB, JWT), leading CRM, digital performance, and brand strategy for global clients like Volkswagen, Ford, and Santander.",
   },
 ];

@@ -28,8 +28,8 @@ const Contact = () => {
         </div>
         
         <div>
-          <p className="text-[10px] tracking-[0.3em] text-background/40 mb-4">BASEADO EM</p>
-          <p className="text-lg">São Paulo, Brasil</p>
+          <p className="text-[10px] tracking-[0.3em] text-background/40 mb-4">BASED IN</p>
+          <p className="text-lg">São Paulo, Brazil</p>
         </div>
       </div>
       
