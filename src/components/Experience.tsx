@@ -67,20 +67,6 @@ const Experience = () => {
           ))}
         </div>
 
-        <p className="text-[10px] tracking-[0.3em] text-muted-foreground mb-8">
-          SKILLS
-        </p>
-        
-        <div className="flex flex-wrap gap-3">
-          {skills.map((skill, index) => (
-            <span 
-              key={index}
-              className="px-4 py-2 border border-foreground/20 text-[10px] tracking-[0.15em] hover:bg-foreground hover:text-background transition-all duration-300 cursor-default"
-            >
-              {skill}
-            </span>
-          ))}
-        </div>
       </div>
     </section>
   );
