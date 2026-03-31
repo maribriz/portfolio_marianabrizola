@@ -1,3 +1,6 @@
+import { useState } from "react";
+import { ChevronDown } from "lucide-react";
+
 const projects = [
   {
     number: "01",
@@ -5,6 +8,7 @@ const projects = [
     category: "QUINTOANDAR",
     metric: "+13%",
     metricLabel: "CONVERSION",
+    description: "Developed and deployed a machine learning model to personalize property recommendations based on user behavior, preferences, and search patterns — resulting in a 13% lift in conversion rates.",
   },
   {
     number: "02",
@@ -12,6 +16,7 @@ const projects = [
     category: "QUINTOANDAR",
     metric: "+30%",
     metricLabel: "CONVERSION",
+    description: "Led the discovery, design, and launch of a new MVP landing page focused on reducing friction and improving lead capture — achieving a 30% increase in conversion through rapid experimentation.",
   },
   {
     number: "03",
@@ -19,10 +24,17 @@ const projects = [
     category: "LOFT",
     metric: "+60%",
     metricLabel: "CONVERSION",
+    description: "Built a predictive model to score property liquidity, helping sellers and the commercial team prioritize high-demand listings — driving a 60% improvement in conversion for targeted properties.",
   },
 ];
 
 const Projects = () => {
+  const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
+
+  const toggleExpand = (index: number) => {
+    setExpandedIndex(expandedIndex === index ? null : index);
+  };
+
   return (
     <section id="projetos" className="py-24 md:py-32 px-4 md:px-8 bg-card">
       <div className="max-w-7xl mx-auto">
@@ -40,6 +52,7 @@ const Projects = () => {
             <div 
               key={index}
               className="group py-12 md:py-16 border-t border-foreground/10 last:border-b cursor-pointer"
+              onClick={() => toggleExpand(index)}
             >
               <div className="grid grid-cols-12 gap-4 items-start md:items-center">
                 <div className="col-span-2 md:col-span-1">
@@ -49,9 +62,16 @@ const Projects = () => {
                 </div>
                 
                 <div className="col-span-10 md:col-span-7">
-                  <h3 className="font-display text-4xl md:text-6xl lg:text-7xl group-hover:translate-x-4 transition-transform duration-500">
-                    {project.title}
-                  </h3>
+                  <div className="flex items-center gap-3">
+                    <h3 className="font-display text-4xl md:text-6xl lg:text-7xl group-hover:translate-x-4 transition-transform duration-500">
+                      {project.title}
+                    </h3>
+                    <ChevronDown 
+                      className={`w-5 h-5 text-muted-foreground transition-transform duration-300 shrink-0 ${
+                        expandedIndex === index ? "rotate-180" : ""
+                      }`} 
+                    />
+                  </div>
                   <p className="text-[10px] tracking-[0.2em] text-muted-foreground mt-2">
                     {project.category}
                   </p>
@@ -65,6 +85,20 @@ const Projects = () => {
                     <span className="text-[10px] tracking-[0.2em] text-muted-foreground">
                       {project.metricLabel}
                     </span>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className={`overflow-hidden transition-all duration-500 ease-in-out ${
+                  expandedIndex === index ? "max-h-40 opacity-100 mt-8" : "max-h-0 opacity-0"
+                }`}
+              >
+                <div className="grid grid-cols-12 gap-4">
+                  <div className="col-span-12 md:col-start-2 md:col-span-7">
+                    <p className="text-sm md:text-base leading-relaxed text-muted-foreground">
+                      {project.description}
+                    </p>
                   </div>
                 </div>
               </div>
