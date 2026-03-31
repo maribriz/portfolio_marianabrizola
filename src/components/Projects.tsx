@@ -38,12 +38,9 @@ const Projects = () => {
   return (
     <section id="projetos" className="py-24 md:py-32 px-4 md:px-8 bg-card">
       <div className="max-w-7xl mx-auto">
-        <div className="flex justify-between items-end mb-16">
+        <div className="mb-16">
           <p className="text-[10px] tracking-[0.3em] text-muted-foreground">
             FEATURED PROJECTS
-          </p>
-          <p className="text-[10px] tracking-[0.3em] text-muted-foreground">
-            SELEÇÃO
           </p>
         </div>
         
