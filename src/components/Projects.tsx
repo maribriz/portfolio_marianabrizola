@@ -31,10 +31,6 @@ const projects = [
 const Projects = () => {
   const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
 
-  const toggleExpand = (index: number) => {
-    setExpandedIndex(expandedIndex === index ? null : index);
-  };
-
   return (
     <section id="projetos" className="py-24 md:py-32 px-4 md:px-8 bg-card">
       <div className="max-w-7xl mx-auto">
@@ -49,7 +45,8 @@ const Projects = () => {
             <div 
               key={index}
               className="group py-12 md:py-16 border-t border-foreground/10 last:border-b cursor-pointer"
-              onClick={() => toggleExpand(index)}
+              onMouseEnter={() => setExpandedIndex(index)}
+              onMouseLeave={() => setExpandedIndex(null)}
             >
               <div className="grid grid-cols-12 gap-4 items-start md:items-center">
                 <div className="col-span-2 md:col-span-1">
