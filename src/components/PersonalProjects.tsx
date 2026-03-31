@@ -11,7 +11,7 @@ const personalProjects = [
   {
     number: "02",
     title: "UNDESTOOD, DOCTOR!",
-    subtitle: "",
+    subtitle: "Hackathon - Mulheres de Produto | Mar/2026",
     category: "MOBILE APP",
     description: "Brief description of the personal project and its impact.",
   },
