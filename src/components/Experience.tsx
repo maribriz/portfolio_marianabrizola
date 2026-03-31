@@ -31,16 +31,6 @@ const experiences = [
   },
 ];
 
-const skills = [
-  "PRODUCT STRATEGY",
-  "USER RESEARCH", 
-  "DATA ANALYSIS",
-  "ROADMAPPING",
-  "STAKEHOLDER MGT",
-  "A/B TESTING",
-  "AGILE/SCRUM",
-  "SQL & ANALYTICS",
-];
 
 const Experience = () => {
   return (
