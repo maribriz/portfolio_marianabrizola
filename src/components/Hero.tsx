@@ -39,11 +39,11 @@ const Hero = () => {
         <div>
           <p className="text-[10px] tracking-[0.2em] text-muted-foreground mb-2">LANGUAGES</p>
           <p className="text-sm">
-            {"・Portuguese: Native/Fluent"}
+            ・Portuguese: Native/Fluent
             <br />
-            {"・English: Advanced"}
+            ・English: Advanced
             <br />
-            {"・Spanish: Intermediate"}
+            ・Spanish: Intermediate
           </p>
         </div>
         <div>
