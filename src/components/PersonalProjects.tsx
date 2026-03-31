@@ -42,9 +42,14 @@ const PersonalProjects = () => {
                 <p className="text-[10px] tracking-[0.2em] text-primary-foreground/40 mb-3">
                   {project.category}
                 </p>
-                <h3 className="font-display text-3xl md:text-4xl lg:text-5xl mb-6 leading-none">
+                <h3 className="font-display text-3xl md:text-4xl lg:text-5xl mb-2 leading-none">
                   {project.title}
                 </h3>
+                {project.subtitle && (
+                  <p className="text-[10px] tracking-[0.1em] text-primary-foreground/40 mb-6">
+                    {project.subtitle}
+                  </p>
+                )}
                 <p className="text-sm leading-relaxed text-primary-foreground/60">
                   {project.description}
                 </p>
