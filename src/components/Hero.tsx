@@ -17,12 +17,12 @@ STRATEGY<br />
           <p className="text-sm">+ 5 years in Tech<br />+10 years in Advertising/Mkt</p>
         </div>
         <div>
-          <p className="text-[10px] tracking-[0.2em] text-muted-foreground mb-2">LOCATION</p>
-          <p className="text-sm">São Paulo, Brazil<br />-&gt; Available to relocate or remote work opportunities</p>
+          <p className="text-[10px] tracking-[0.2em] text-muted-foreground mb-2">LANGUAGES</p>
+          <p className="text-sm whitespace-pre-line">{"・Portuguese: Native/Fluent\n\n・English: Advanced\n・Spanish: Intermediate"}</p>
         </div>
         <div>
           <p className="text-[10px] tracking-[0.2em] text-muted-foreground mb-2">STATUS</p>
-          <p className="text-sm">Open to new opportunities</p>
+          <p className="text-sm whitespace-pre-line">{"Open to new opportunities.\n・On site\n・Hybrid\n・Remote"}</p>
         </div>
       </div>
     </section>;
