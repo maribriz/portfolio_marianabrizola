@@ -2,11 +2,18 @@ const skills = [
   "PRODUCT STRATEGY",
   "USER RESEARCH", 
   "DATA ANALYSIS",
-  "ROADMAPPING",
+  "OKRs",
   "STAKEHOLDER MGT",
   "A/B TESTING",
   "AGILE/SCRUM",
   "SQL",
+  "PYTHON",
+  "JIRA",
+  "LOVABLE",
+  "N8N",
+  "CLAUDE",
+  "CHATGPT",
+  "GEMINI",
 ];
 
 const Skills = () => {
