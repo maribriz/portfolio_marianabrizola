@@ -28,11 +28,6 @@ const About = () => {
             
             <div>
               <p className="text-background/80 text-lg leading-relaxed mb-8">Product Manager with 15 years of experience across Advertising, Technology, and AI. I've led data science and machine learning squads at Brazilian unicorns like QuintoAndar and Loft, building models for personalization, ranking, and predictive analytics — always with a clear focus on user behavior and business impact. I bring the full stack of product thinking — from defining the real problem and discovery, through roadmap prioritization, to go-to-market and team leadership. My background in brand strategy gives me something most technical PMs don't have: a deep understanding of why people do what they do.</p>
-              <p className="text-background/60 leading-relaxed">
-                Já liderei produtos que impactaram milhões de usuários. 
-                Minha abordagem combina rigor analítico com sensibilidade para design 
-                e profundo entendimento do comportamento humano.
-              </p>
             </div>
           </div>
         </div>
