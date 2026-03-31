@@ -24,7 +24,7 @@ const projects = [
     category: "LOFT",
     metric: "+60%",
     metricLabel: "CONVERSION",
-    description: "Built a predictive model to score property liquidity, helping sellers and the commercial team prioritize high-demand listings — driving a 60% improvement in conversion for targeted properties.",
+    description: "Led the squad that developed and integrated data models to measure and improve the liquidity of low-demand properties. This solution increased the efficiency of internal teams, resulting in a 60% growth in successful contacts with property owners compared to the period before its implementation.",
   },
 ];
 
