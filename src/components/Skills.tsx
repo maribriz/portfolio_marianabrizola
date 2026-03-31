@@ -6,7 +6,7 @@ const skills = [
   "STAKEHOLDER MGT",
   "A/B TESTING",
   "AGILE/SCRUM",
-  "SQL & ANALYTICS",
+  "SQL",
 ];
 
 const Skills = () => {
