@@ -27,7 +27,7 @@ const experiences = [
     role: "ASSOCIATE PM/CRM SPECIALIST",
     company: "QuintoAndar",
     scope: "Product",
-    description: "Led hybrid squads (Data Science + Engineering) to build ML models for property ranking and personalization, and managed CRM governance across email, SMS, push, and in-app channels via Braze.",
+    description: "Led hybrid squads (Data Science + Engineering) to build ML models for property ranking and personalization, and managed CRM governance across email, SMS, push and in-app channels via Braze.",
   },
   {
     period: "2011 - 2019",
