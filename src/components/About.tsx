@@ -28,7 +28,7 @@ const About = () => {
             
             <div className="text-background/80 text-lg leading-relaxed space-y-6">
               <p>Product Manager with 15 years of experience across Advertising and Technology. I’ve led multidisciplinary squads in fast-paced environments like QuintoAndar and Loft, building products for different contexts such as acquisition, retention, and operational efficiency.</p>
-              <p>I work across the entire product lifecycle, from defining the real problem and running discovery, to prioritizing roadmaps, launching solutions, and leading teams.</p>
+              <p>I work across the entire product lifecycle, from defining the real problem and running discovery, to prioritizing roadmaps, launching solutions, and leading teams. My core expertise is in AI and ML products, Growth and CRM.</p>
               <p>My background in Brand Strategy gives me a different perspective from most technical PMs: a strong understanding of human behavior and why people make the decisions they do.</p>
             </div>
           </div>
