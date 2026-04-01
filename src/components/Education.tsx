@@ -35,13 +35,13 @@ const Education = () => {
             <div className="space-y-8">
               {education.map((item, index) => (
                 <div key={index} className="border-l border-foreground/15 pl-6">
-                  <h3 className="text-xs tracking-[0.1em] font-medium mb-1">
+                  <h3 className="text-sm tracking-[0.1em] font-medium mb-1">
                     {item.title}
                   </h3>
-                  <p className="text-[10px] tracking-[0.1em] text-muted-foreground">
+                  <p className="text-xs tracking-[0.1em] text-muted-foreground">
                     {item.institution}
                   </p>
-                  <p className="text-[10px] tracking-[0.1em] text-muted-foreground/60 mt-1">
+                  <p className="text-xs tracking-[0.1em] text-muted-foreground/60 mt-1">
                     {item.period}
                   </p>
                 </div>
@@ -58,14 +58,14 @@ const Education = () => {
               {certifications.map((item, index) => (
                 <div key={index} className="flex justify-between items-baseline gap-4 border-b border-foreground/5 pb-3">
                   <div>
-                    <h3 className="text-xs tracking-[0.1em] font-medium">
+                    <h3 className="text-sm tracking-[0.1em] font-medium">
                       {item.title}
                     </h3>
-                    <p className="text-[10px] tracking-[0.1em] text-muted-foreground">
+                    <p className="text-xs tracking-[0.1em] text-muted-foreground">
                       {item.institution}
                     </p>
                   </div>
-                  <span className="text-[10px] tracking-[0.1em] text-muted-foreground/60 shrink-0">
+                  <span className="text-xs tracking-[0.1em] text-muted-foreground/60 shrink-0">
                     {item.year}
                   </span>
                 </div>
