@@ -108,7 +108,7 @@ const Projects = () => {
                       ].map((item) => (
                         <div key={item.label}>
                           <p className="text-[9px] tracking-[0.2em] text-muted-foreground/60 mb-1">{item.label}</p>
-                          <p className="text-xs leading-relaxed text-muted-foreground">{item.text}</p>
+                          <p className="text-sm leading-relaxed text-muted-foreground">{item.text}</p>
                         </div>
                       ))}
                     </div>
