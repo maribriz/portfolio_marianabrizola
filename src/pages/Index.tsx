@@ -23,6 +23,7 @@ const Index = () => {
       <Education />
       <Skills />
       <Contact />
+      <FloatingCTA />
     </div>
   );
 };
