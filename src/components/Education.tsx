@@ -35,13 +35,13 @@ const Education = () => {
             <div className="space-y-8">
               {education.map((item, index) => (
                 <div key={index} className="border-l border-foreground/15 pl-6">
-                  <h3 className="text-xs tracking-[0.1em] font-medium mb-1">
+                  <h3 className="text-sm tracking-[0.1em] font-medium mb-1">
                     {item.title}
                   </h3>
-                  <p className="text-[10px] tracking-[0.1em] text-muted-foreground">
+                  <p className="text-xs tracking-[0.1em] text-muted-foreground">
                     {item.institution}
                   </p>
-                  <p className="text-[10px] tracking-[0.1em] text-muted-foreground/60 mt-1">
+                  <p className="text-xs tracking-[0.1em] text-muted-foreground/60 mt-1">
                     {item.period}
                   </p>
                 </div>
