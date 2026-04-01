@@ -6,7 +6,7 @@ const experiences = [
     role: "STRATEGY MANAGER",
     company: "Wieden&Kennedy",
     scope: "B2B SaaS",
-    description: "Led brand and communication strategy for agency clients, combining audience research, data analysis, and digital medianplanning to drive acquisition and creative briefs.",
+    description: "Led brand and communication strategy for agency clients, combining audience research, data analysis and digital medianplanning to drive acquisition and creative briefs.",
   },
   {
     period: "2023 - 2024",
