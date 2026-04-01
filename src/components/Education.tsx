@@ -5,7 +5,7 @@ const education = [
     period: "2009 – 2013",
   },
   {
-    title: "PROFESSIONAL CERTIFICATE IN DATA SCIENCE & MACHINE LEARNING",
+    title: "INTENSIVE PROGRAM - DATA SCIENCE & MACHINE LEARNING",
     institution: "Tera",
     period: "2023 (8 months)",
   },
