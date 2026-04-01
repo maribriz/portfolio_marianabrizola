@@ -20,9 +20,9 @@ const projects = [
     metric: "+30%",
     metricLabel: "CONVERSION",
     situation: "We saw an opportunity to make the property search experience more exploratory, increasing the number of properties users viewed and, in turn, the likelihood of scheduling visits.",
-    task: "Improve initial user interaction and increase property views.",
+    task: "Improve initial user interaction and increase property page views.",
     action: "Led the end-to-end development of a new desktop landing page MVP, from problem definition to launch, including experimentation and performance tracking.",
-    result: "Increased property views by ~30% compared to the previous experience.",
+    result: "Increased property page views by ~30% compared to the previous experience.",
   },
   {
     number: "03",
