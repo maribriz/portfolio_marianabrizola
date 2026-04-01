@@ -10,10 +10,10 @@ const personalProjects = [
   },
   {
     number: "02",
-    title: "UNDESTOOD, DOCTOR!",
+    title: "UNDERSTOOD, DOCTOR!",
     subtitle: "Hackathon - Mulheres de Produto | Mar/2026",
     category: "MOBILE APP",
-    description: "Built and shipped a fully functional AI-powered mobile app in 90 minutes on Replit during a hackathon organized by Mulheres de Produto. Working in a team composed by 4 women, defined the product concept, core use cases, and AI-driven feature set end-to-end.\n\nThe app addresses a real accessibility gap in healthcare: patients, especially elderly and neurodivergent users, leaving consultations without retaining critical information. The solution uses AI audio transcription to automatically generate structured, plain-language summaries of medical appointments.",
+    description: "Built and shipped a fully functional AI-powered mobile app in 90 minutes on Replit during a hackathon organized by Mulheres de Produto. Working in a team composed of 4 women, defined the product concept, core use cases, and AI-driven feature set end-to-end.\n\nThe app addresses a real accessibility gap in healthcare: patients, especially elderly and neurodivergent users, leaving consultations without retaining critical information. The solution uses AI audio transcription to automatically generate structured, plain-language summaries of medical appointments.",
   },
 ];
 
