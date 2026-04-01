@@ -11,7 +11,7 @@ const projects = [
     situation: "We had been using the same recommendation model for a long time, based only on property similarity, which limited the ability to deliver more relevant and personalized suggestions.",
     task: "Improve recommendation quality to increase user intent signals.",
     action: "Led the development of a personalized recommendation model using embeddings, incorporating both user and property similarity. The model was implemented across email marketing and on-site experiences.",
-    result: "Achieved +13% increase in clicks, improving user engagement",
+    result: "Achieved +13% increase in clicks, improving user engagement.",
   },
   {
     number: "02",

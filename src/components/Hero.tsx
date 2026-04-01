@@ -31,7 +31,7 @@ const Hero = () => {
         <div>
           <p className="text-[10px] tracking-[0.2em] text-muted-foreground mb-2">EXPERIENCE</p>
           <p className="text-sm">
-            {"+ 5 years in Tech"}
+            {"+5 years in Tech"}
             <br />
             {"+10 years in Advertising/Mkt"}
           </p>
