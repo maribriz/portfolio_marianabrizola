@@ -13,7 +13,7 @@ const experiences = [
     role: "SENIOR PRODUCT MANAGER",
     company: "Skeelo",
     scope: "+300% ARR",
-    description: "Led the Retention Squad and managed the Premium Business Unit, owning discovery, roadmap, and delivery of product initiatives, including a gamification MVP that increased MAU and user retention.",
+    description: "Led the Retention Squad and managed the Premium Business Unit, owning discovery, roadmap and delivery of product initiatives, including a gamification MVP that increased MAU and user retention.",
   },
   {
     period: "2022",
