@@ -6,7 +6,7 @@ const personalProjects = [
     title: "LINKEDIN PROFILE OPTIMIZER",
     subtitle: "PrograMaria x Zup Innovation Sprint | Dec/2025",
     category: "AI AGENT",
-    description: "Built an AI agent using GPT-4.1 on StackSpot to help job seekers improve their LinkedIn presence. Users upload their LinkedIn profile as a PDF and the agent analyzes each section, identifies strengths and gaps, and generates a rewritten, recruiter-ready version with actionable suggestions.\n\n\nThe agent was built with a detailed prompt to review each section, flag what could be stronger, and suggest rewritten versions tailored to what recruiters actually look for.",
+    description: "Built an AI agent using GPT-4.1 on StackSpot to help job seekers improve their LinkedIn presence. Users upload their LinkedIn profile as a PDF and the agent analyzes each section, identifies strengths and gaps, and generates a rewritten, recruiter-ready version with actionable suggestions.\n\nThe agent was built with a detailed prompt to review each section, flag what could be stronger, and suggest rewritten versions tailored to what recruiters actually look for.",
   },
   {
     number: "02",
