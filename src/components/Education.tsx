@@ -19,7 +19,7 @@ const certifications = [
   { title: "Growth Series", institution: "Reforge", year: "2023" },
   { title: "Mastering Product Management", institution: "Reforge", year: "2022" },
   { title: "Data Analytics", institution: "Tera", year: "2021" },
-  { title: "Front-end", institution: "PrograMaria", year: "2020" },
+  { title: "FRONT-END - HTML, CSS, JAVASCRIPT", institution: "PrograMaria", year: "2020" },
 ];
 
 const Education = () => {
