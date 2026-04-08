@@ -5,6 +5,7 @@ const projects = [
   {
     number: "01",
     title: "AI PERSONALIZATION MODEL",
+    tag: "GROWTH",
     category: "QUINTOANDAR",
     metric: "+13%",
     metricLabel: "CONVERSION",
