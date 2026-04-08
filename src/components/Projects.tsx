@@ -29,6 +29,7 @@ const projects = [
   {
     number: "03",
     title: "AI PROPERTY LIQUIDITY MODEL",
+    tag: "OPS/SALES",
     category: "LOFT",
     metric: "+60%",
     metricLabel: "CONVERSION",
