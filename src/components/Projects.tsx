@@ -68,10 +68,13 @@ const Projects = () => {
                 </div>
                 
                 <div className="col-span-10 md:col-span-7">
-                  <div className="flex items-center gap-3">
+                  <div className="flex items-center gap-3 flex-wrap">
                     <h3 className="font-display text-4xl md:text-6xl lg:text-7xl group-hover:translate-x-4 transition-transform duration-500">
                       {project.title}
                     </h3>
+                    <span className="text-[9px] tracking-[0.2em] border border-foreground/20 text-muted-foreground px-2 py-0.5 rounded-full whitespace-nowrap">
+                      {project.tag}
+                    </span>
                     <ChevronDown 
                       className={`w-5 h-5 text-muted-foreground transition-transform duration-300 shrink-0 ${
                         expandedIndex === index ? "rotate-180" : ""
