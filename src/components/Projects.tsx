@@ -17,6 +17,7 @@ const projects = [
   {
     number: "02",
     title: "MVP LANDING PAGE",
+    tag: "GROWTH",
     category: "QUINTOANDAR",
     metric: "+30%",
     metricLabel: "CONVERSION",
