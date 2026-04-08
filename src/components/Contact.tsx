@@ -30,7 +30,10 @@ const Contact = () => {
         <div>
           <p className="text-[10px] tracking-[0.3em] text-background/40 mb-4">BASED IN</p>
           <p className="text-lg">São Paulo, Brazil</p>
-          <p className="text-sm text-background/60 mt-2">→ Available to relocate or remote work opportunities.</p>
+          <p className="text-sm text-background/60 mt-2">
+            → Willing to relocate<br />
+            →Open to remote work opportunities
+          </p>
         </div>
       </div>
       
