@@ -38,6 +38,18 @@ const projects = [
     action: "Led a data squad to build and integrate AI models combining pricing, demand signals, and liquidity algorithms. Worked closely with stakeholders to operationalize the solution quickly and improve the effectiveness of the property owner contact team.",
     result: "Increased internal team efficiency and drove a 60% increase in successful contacts with property owners.",
   },
+  {
+    number: "04",
+    title: "FORD MUSTANG PRE-SALE IN BRAZIL",
+    tag: "CRM",
+    category: "GTB WPP",
+    metric: "300",
+    metricLabel: "CARS SOLD",
+    situation: "The Ford Mustang was the most expensive car ever sold in Brazil at the time, targeting a high-income audience far from Ford's usual customer base. Dealership experiences often fell short, leading frustrated customers to abandon the purchase.",
+    task: "Design a premium pre-sale experience for a R$300,000 vehicle not yet available in the country — requiring buyers to commit before seeing the car in person — without alienating brand enthusiasts.",
+    action: "Designed a CRM strategy combining digital channels with a concierge-style lead management service. Leads were segmented by intent: the warmest prospects were sent to dealerships to close, mid-tier leads were nurtured and invited to exclusive test drive events, and brand enthusiasts received exclusive email content that drove organic amplification on social media.",
+    result: "All 300 pre-sale units were sold, with a waitlist created for the regular sales period.",
+  },
 ];
 
 const Projects = () => {
