@@ -47,7 +47,7 @@ const projects = [
     metricLabel: "CARS SOLD",
     situation: "The Ford Mustang was the most expensive car ever sold in Brazil at the time, targeting a high-income audience far from Ford's usual customer base. Dealership experiences often fell short, leading frustrated customers to abandon the purchase.",
     task: "Design a premium pre-sale experience for a R$300,000 vehicle not yet available in the country — requiring buyers to commit before seeing the car in person — without alienating brand enthusiasts.",
-    action: "Designed a CRM strategy combining digital channels with a concierge-style lead management service. Leads were segmented by intent: the warmest prospects were sent to dealerships to close, mid-tier leads were nurtured and invited to exclusive test drive events, and brand enthusiasts received exclusive email content that drove organic amplification on social media.",
+    action: "Designed a CRM strategy combining digital channels with concierge-style lead management. Leads were segmented by intent: warmest prospects went to dealerships, mid-tier leads were nurtured with exclusive test drive events, and enthusiasts received curated content that drove organic amplification on social media.",
     result: "All 300 pre-sale units were sold, with a waitlist created for the regular sales period.",
   },
 ];
