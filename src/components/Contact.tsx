@@ -5,11 +5,29 @@ const Contact = () => {
           CONTACT
         </p>
         
-        <h2 className="font-display text-[12vw] md:text-[10vw] leading-[0.85]">
-          LET'S
-          <br />
-          TALK?
-        </h2>
+        <div className="flex items-center justify-between gap-8 flex-wrap">
+          <h2 className="font-display text-[12vw] md:text-[10vw] leading-[0.85]">
+            LET'S
+            <br />
+            TALK?
+          </h2>
+
+          <div id="r" className="shrink-0">
+            <style>{`@import url("https://use.typekit.net/kmj5qkr.css");#r{--h:polygon(50% 0,100% 24%,100% 76%,50% 100%,0 76%,0 24%);font-family:proxima-nova,Arial,sans-serif}#r .h{display:inline-block;background:#25a9ef;padding:6px;clip-path:var(--h)}#r .a{width:200px;padding:24px 0 32px;display:flex;flex-direction:column;align-items:center;gap:10px;color:#204ecf;text-align:center;background:radial-gradient(circle at 20% -10%,#00c3ff -80%,#fff 30%),radial-gradient(circle at -20% 20%,#00c3ff -80%,#fff 30%),radial-gradient(circle at 70% 100%,#00c3ff -80%,#fff 30%),radial-gradient(circle at 120% 80%,#00c3ff -80%,#fff 30%);background-blend-mode:multiply;clip-path:var(--h);box-shadow:0 28px 50px rgba(6,30,96,.35)}#r .b{margin:0;font-size:15px;font-weight:700;line-height:1;letter-spacing:.18em}#r .c{width:120px;height:1px;background:#25a9ef}#r .d{font-size:14px;opacity:.9;margin:0}#r .e{display:flex;align-items:center;gap:6px;color:#204ecf;font-weight:700;font-size:22px;letter-spacing:-.02em}#r .e svg{width:22px;height:22px}#r .f{display:inline-flex;align-items:center;justify-content:center;padding:5px 22px;border-radius:6px;background:#296bff;color:#fff;font-size:15px;font-weight:500;text-decoration:none}`}</style>
+            <span className="h">
+              <span className="a">
+                <p className="b">TOP 3% TALENT</p>
+                <span className="c"></span>
+                <p className="d">Vetted by</p>
+                <span className="e">
+                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 5h18l-7 14L3 5z" fill="#204ecf"/></svg>
+                  Toptal
+                </span>
+                <a className="f" href="https://www.toptal.com/product-managers/resume/mariana-brizola" target="_blank" rel="noopener noreferrer">Hire me</a>
+              </span>
+            </span>
+          </div>
+        </div>
       </div>
       
       <div className="grid md:grid-cols-3 gap-8 md:gap-16 mt-24">
@@ -37,20 +55,6 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="flex justify-center mt-24">
-        <div id="r">
-          <style>{`@import url("https://use.typekit.net/kmj5qkr.css");#r{--h:polygon(50% 0,100% 24%,100% 76%,50% 100%,0 76%,0 24%);font-family:proxima-nova,Arial,sans-serif}#r .h{display:inline-block;background:#25a9ef;padding:6px;clip-path:var(--h)}#r .a{width:200px;padding:24px 0 40px;display:flex;flex-direction:column;align-items:center;gap:8px;color:#204ecf;text-align:center;background:radial-gradient(circle at 20% -10%,#00c3ff -80%,#fff 30%),radial-gradient(circle at -20% 20%,#00c3ff -80%,#fff 30%),radial-gradient(circle at 70% 100%,#00c3ff -80%,#fff 30%),radial-gradient(circle at 120% 80%,#00c3ff -80%,#fff 30%);background-blend-mode:multiply;clip-path:var(--h);box-shadow:0 28px 50px rgba(6,30,96,.35)}#r .b{margin:0;font-size:19px;font-weight:700;line-height:1;text-transform:none;letter-spacing:0;font-family:proxima-nova,Arial,sans-serif}#r .c{width:120px;height:1px;background:#25a9ef}#r .d{font-size:16px;opacity:.8;margin-bottom:-6px}#r .f{display:inline-flex;align-items:center;justify-content:center;padding:4px 20px;border-radius:6px;background:#296bff;color:#fff;font-size:16px;font-weight:500;text-decoration:underline;text-decoration-thickness:.5px;text-underline-offset:2px}`}</style>
-          <span className="h">
-            <span className="a">
-              <p className="d">TOP 3% TALENT</p>
-              <p className="b">TOPTAL</p>
-              <span className="c"></span>
-              <p className="d">Vetted by</p>
-              <a className="f" href="https://www.toptal.com/product-managers/resume/mariana-brizola" target="_blank" rel="noopener noreferrer">Hire me</a>
-            </span>
-          </span>
-        </div>
-      </div>
 
       <div className="flex justify-between items-end mt-24 pt-8 border-t border-background/20">
         <p className="text-[10px] tracking-[0.2em] text-background/40">
