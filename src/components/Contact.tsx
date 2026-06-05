@@ -46,7 +46,7 @@ const Contact = () => {
               <p className="b">TOPTAL</p>
               <span className="c"></span>
               <p className="d">Vetted by</p>
-              <a className="f" href="https://www.toptal.com/resume/mariana-brizola" target="_blank" rel="noopener noreferrer">Hire me</a>
+              <a className="f" href="https://www.toptal.com/product-managers/resume/mariana-brizola" target="_blank" rel="noopener noreferrer">Hire me</a>
             </span>
           </span>
         </div>
